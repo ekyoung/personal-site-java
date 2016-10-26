@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags/template" %>
-<t:main htmlTitle="Hello, World!" isHomeActive="true">
+<t:main htmlTitle="Home" isHomeActive="true">
     <jsp:attribute name="headContent">
         <!-- This comment should be in the head. -->
     </jsp:attribute>

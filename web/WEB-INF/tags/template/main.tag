@@ -26,28 +26,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Ethan Young</a>
+                <a class="navbar-brand" href="<c:url value="/" />">Ethan Young</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li <c:if test="${isHomeActive}">class="active"</c:if>><a href="/">Home</a></li>
+                    <li <c:if test="${isHomeActive}">class="active"</c:if>><a href="<c:url value="/" />">Home</a></li>
                     <li class="dropdown<c:if test="${isTripsActive}"> active</c:if>">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Trips <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/trips">All Trips</a></li>
+                            <li><a href="<c:url value="/trips" />">All Trips</a></li>
                             <li class="divider"></li>
-                            <li><a href="/trips/alaska-2005">Alaska Motorcycle Trip 2005</a></li>
-                            <li><a href="/trips/southwest-2007">Southwest Motorcycle Trip 2007</a></li>
-                            <li><a href="/trips/mexico-2013">Playa del Carmen, Mexico 2013</a></li>
-                            <li><a href="/trips/moab-may-2006">Moab May 2006</a></li>
-                            <li><a href="/trips/uncle-bud-hut-2007">Uncle Bud Hut Ski Trip</a></li>
-                            <li><a href="/trips/betty-bear-hut-2006">Betty Bear Hut Ski Trip</a></li>
-                            <li><a href="/trips/bingham-canyon-mine">Bingham Canyon Mine</a></li>
-                            <li><a href="/trips/dinosaur-nm-2005">Dinosaur National Monument</a></li>
+                            <li><a href="<c:url value="/trips/alaska-2005" />">Alaska Motorcycle Trip 2005</a></li>
+                            <li><a href="<c:url value="/trips/southwest-2007" />">Southwest Motorcycle Trip 2007</a></li>
+                            <li><a href="<c:url value="/trips/mexico-2013" />">Playa del Carmen, Mexico 2013</a></li>
+                            <li><a href="<c:url value="/trips/moab-may-2006" />">Moab May 2006</a></li>
+                            <li><a href="<c:url value="/trips/uncle-bud-hut-2007" />">Uncle Bud Hut Ski Trip</a></li>
+                            <li><a href="<c:url value="/trips/betty-bear-hut-2006" />">Betty Bear Hut Ski Trip</a></li>
+                            <li><a href="<c:url value="/trips/bingham-canyon-mine" />">Bingham Canyon Mine</a></li>
+                            <li><a href="<c:url value="/trips/dinosaur-nm-2005" />">Dinosaur National Monument</a></li>
                         </ul>
                     </li>
-                    <li <c:if test="${isAboutThisSiteActive}">class="active"</c:if>><a href="/about-this-site">About This Site</a></li>
-                    <li <c:if test="${isResumeActive}">class="active"</c:if>><a href="/resume">Resume</a></li>
+                    <li <c:if test="${isAboutThisSiteActive}">class="active"</c:if>><a href="<c:url value="/about-this-site" />">About This Site</a></li>
+                    <li <c:if test="${isResumeActive}">class="active"</c:if>><a href="<c:url value="/resume" />">Resume</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
