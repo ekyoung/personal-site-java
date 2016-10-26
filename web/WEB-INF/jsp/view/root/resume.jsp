@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags/template" %>
-<t:main htmlTitle="Home" isHomeActive="true">
+<t:main htmlTitle="Resume" isResumeActive="true">
     <jsp:body>
         <img src="<c:url value="/browser/resume/mcsd-rgb.gif" /> " alt="Microsoft Certified Solution Developer" class="pull-right" />
         <h1>Resume</h1>
